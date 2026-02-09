@@ -273,7 +273,7 @@ def main():
     # Upload args
     parser.add_argument('--project-slug', help='Hub01 Project Slug')
     parser.add_argument('--api-url', help='Hub01 API URL')
-    parser.add_argument('--api-token', help='Hub01 API Token')
+    parser.add_argument('--api-token', default=os.environ.get('HUB01_API_TOKEN'), help='Hub01 API Token (can also use HUB01_API_TOKEN env var)')
     parser.add_argument('--overwrite', action='store_true', help='Overwrite existing version')
     
     # Mode

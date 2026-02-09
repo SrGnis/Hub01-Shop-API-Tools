@@ -42,5 +42,4 @@ jobs:
             --subfolder "src/mod" \
             --release-type "release" \
             --project-slug "my-project" \
-            --api-url "https://hub01-shop.srgnis.com/api" \
-            --api-token "${{ secrets.HUB01_API_TOKEN }}"
+            --api-url "https://hub01-shop.srgnis.com/api"

@@ -49,7 +49,7 @@ python3 publish.py [INPUT] [OPTIONS]
 
 - `--project-slug SLUG`: The project slug on Hub01.
 - `--api-url URL`: The Hub01 API URL.
-- `--api-token TOKEN`: Your Hub01 API token.
+- `--api-token TOKEN`: Your Hub01 API token (can also use `HUB01_API_TOKEN` env var)
 - `--overwrite`: Overwrite the version if it already exists.
 
 ## Examples
