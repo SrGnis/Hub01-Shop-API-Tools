@@ -4,7 +4,7 @@ A collection of Python tools for publishing game mods and projects to [Hub01 Sho
 
 ## Overview
 
-This repository contains two publishing utilities:
+This repository contains two publishing utilities, check their individual documentation:
 
 | Tool                                        | Description                                                                             |
 | ------------------------------------------- | --------------------------------------------------------------------------------------- |
